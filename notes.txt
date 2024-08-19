@@ -1,0 +1,27 @@
+
+
+
+ element --> Id(global attribute)
+             style(global attribute)
+             class(global attribute)
+
+
+             src (img) --> local attribute
+
+             src (h1) 
+
+
+
+Question :
+
+  Element level style  : style attribute
+  
+  Document level style : style el in the head 
+
+  Project level style : you have to create the new  file which having the .css(cascading style sheets) file extension
+
+  
+
+  github
+  
+  html
