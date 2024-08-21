@@ -1,3 +1,157 @@
+<!-- header footer main section article time address aside figure figcaption nav , address -->
+<!-- 
+        Def : Semantic tags in html are the elements which
+         clearly provide the overview about the content . 
+         so that it helps web browser and search engines
+        to understand the structure of the content on a page -->
+<html>
+  <head>
+    <style>
+      .webheader {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      ul li {
+        display: inline;
+        margin: 10px;
+      }
 
+      .container {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-gap: 10px;
+      }
 
-<!-- header footer main section article time address aside figure figcaption  -->
+      .sidebar-left {
+        background-color: lightgray;
+        padding: 10px;
+      }
+
+      .main {
+        background-color: darkgray;
+        padding: 10px;
+      }
+
+      .sidebar-right {
+        background-color: lightgray;
+        padding: 10px;
+      }
+
+      .webfooter{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Heading-->
+    <div class="webheader">
+      <header>
+        <h1>Welcome to the Growton Training</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Course</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--container of leftside , Main and right side-->
+    <div class="container">
+      <div class="sidebar-left">
+        <aside>
+          This is left
+          <h2>Related Links</h2>
+          <ul>
+            <li>
+              <a href="https://www.google.com/">Google</a>
+            </li>
+            <li>
+              <a
+                href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+                >Bootstrap</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="main">
+        <main>
+          This is the Main
+
+          <section>
+            <h2>About us</h2>
+            <p>
+              We are a Creativie and passinoate team delicated to building
+              innovative solutions
+            </p>
+          </section>
+
+          <section>
+            <h2>Services</h2>
+            <ul>
+              <li>Web development</li>
+              <li>Graphic designs</li>
+              <li>SEO optimaztion</li>
+            </ul>
+          </section>
+
+          <article>
+            <h2>Cricket blog post</h2>
+            <p>Dhoni related blog...............................</p>
+          </article>
+
+          <time>time is now is August 21-08-2024</time>
+
+          <mark>Importnat information</mark>
+
+          <!-- <h1> time is now is August 21-08-2024</h1> -->
+
+          <details>
+            <summary>More Details. Please click</summary>
+            <p>Addition information about the details are here</p>
+          </details>
+        </main>
+      </div>
+
+      <div class="sidebar-right">
+        <aside>
+          This is right
+
+          <h2>Related Images</h2>
+
+          <figure>
+            <img
+              src="../1.Section-Intro/images/employee.jfif"
+              height="50"
+              width="50"
+              alt="Picture not found"
+            />
+            <figcaption>Growton Employee</figcaption>
+          </figure>
+        </aside>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="webfooter">
+        <footer>
+            <p> ©2024 Growton learnings</p>
+            <address>
+                 Contact us info@growtonmarteh.com
+            </address>
+        </footer>
+
+    </div>
+  </body>
+</html>
