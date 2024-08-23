@@ -3,9 +3,14 @@
     <head></head>
     <body>
 
+        <!-- Q) Form control
+         
+               An element which acccepts the input called the form control-->
+
+        <div id="">
         <form>
 
-            <h1>Forms</h1>
+            <h1 style="background-color: red">Forms</h1>
 
         <fieldset>
 
@@ -14,14 +19,22 @@
 
 
             <label for="firstID">First Name</label>
-            <input id="firstID" name="firstName" 
-            type="text" placeholder="Please enter your first Name" />
+            <input 
+            id="firstID" 
+            name="firstName" 
+            type="text"
+            placeholder="Please enter your first Name"
+            disabled />
 
             <br/>
             <br/>
             <label for="lastID">Last Name</label>
-            <input id="lastID" name="lastName" type="text"
-            placeholder="Please enter your last Name" />
+            <input 
+            id="lastID"
+             name="lastName" 
+            type="text"
+            placeholder="Please enter your last Name"
+            disabled />
 
 
             <br/>
@@ -37,8 +50,8 @@
             <legend>Optional form</legend>
 
             <label>Hobbies:</label>
-            <input id="checkbox-1"  name = "checkbox-name-1" type="checkbox" /> Cricket
-            <input id="checkbox-2"  name = "checkbox-name-2" type="checkbox" /> Reading
+            <input id="checkbox-1"  name = "checkbox-name-1" type="checkbox" checked /> Cricket
+            <input id="checkbox-2"  name = "checkbox-name-2" type="checkbox" checked /> Reading
 
 
             <br />
@@ -46,7 +59,7 @@
 
             <label>Are you interested to travel?</label>
             <input id="yesID" name="travelname" type="radio" /> Yes
-            <input id="NoID"  name="travelname" type="radio" /> No
+            <input id="NoID"  name="travelname" type="radio" checked /> No
 
 
             <br />
@@ -58,16 +71,68 @@
 
 
 
+            <br/>
+            <br/>
+
+            <label>Please select state:</label>
+            <select>
+                <option>--PLease select--</option>
+                <option>Anhdra</option>
+                <option>telagna</option>
+                <option selected>tamilnadu</option>
+                <option>karnataka</option>
+            </select>
+
+
+            <br/>
+            <br/>
+
+            <label>Password:</label>
+            <input type="password"/>
+
+
+            <br/>
+            <br/>
+
+            <label>number:</label>
+            <input type="number"/>
+
+
+            <br/>
+            <br/>
+
+            <label>range:</label>
+            <input type="range"/>
+
+
+            <br/>
+            <br/>
+
+            <label>Date:</label>
+            <input type="date"/>
+
+            <br/>
+            <br/>
+
+            <label>Time:</label>
+            <input type="time"/>
+
+
+            <br/>
+            <br/>
+
+            <label>color:</label>
+            <input type="color"/>
+
+
+
+            <br/>
+            <button style="background-color: blue;">click</button>
+
+
 
         </fieldset>
-
-
-
-
-
-
-
-
         </form>
+    </div>
     </body>
 </html>

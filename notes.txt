@@ -25,3 +25,12 @@ Question :
   github
   
   html
+
+
+
+  Notes :
+
+
+  1. Element level style
+  2. Inner style
+  3. External style
